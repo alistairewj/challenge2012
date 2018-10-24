@@ -8,3 +8,34 @@ A big part of any machine learning project is data preprocessing. The notebook p
 The logic used here was applied in our conference paper: [Patient specific predictions in the intensive care unit using a Bayesian ensemble](https://ieeexplore.ieee.org/abstract/document/6420377). Our entry had the highest score 1 in the competition, where score 1 was defined as the minimum of the sensitivity/positive predictive value.
 
 The code was originally written in MATLAB but with any luck this Python code is a faithful reproduction.
+
+## Downloading the data
+
+For convenience, the already processed datasets are made available in the [data subfolder](/data).
+
+If you use this data in your research or otherwise, please do acknowledge the organizers of the PhysioNet 2012 Challenge:
+
+```
+@article{silva2012predicting,
+  title={Predicting in-hospital mortality of icu patients: The physionet/computing in cardiology challenge 2012},
+  author={Silva, Ikaro and Moody, George and Scott, Daniel J and Celi, Leo A and Mark, Roger G},
+  journal={Computing in cardiology},
+  volume={39},
+  pages={245},
+  year={2012},
+  publisher={NIH Public Access}
+}
+```
+
+We would also appreciate acknowledgement:
+
+```
+@inproceedings{johnson2012patient,
+  title={Patient specific predictions in the intensive care unit using a Bayesian ensemble},
+  author={Johnson, Alistair EW and Dunkley, Nic and Mayaud, Louis and Tsanas, Athanasios and Kramer, Andrew A and Clifford, Gari D},
+  booktitle={Computing in Cardiology (CinC), 2012},
+  pages={249--252},
+  year={2012},
+  organization={IEEE}
+}
+```
